@@ -25,10 +25,16 @@ for i in file:
     powerballNumbers = powerballNumbers + i.split()[5:]
 
 
-
+print("Most common numbers: ")
 print(collections.Counter(myList).most_common(10))
+print("")
+print("Least common numbers: ")
 print(collections.Counter(myList).most_common()[:-10-1:-1])
+print("")
+print("Frequency of regular numbers: ")
 print(collections.Counter(generalNumbers).most_common())
+print("")
+print("Frequency of powerball numbers: ")
 print(collections.Counter(powerballNumbers).most_common())
 
 
