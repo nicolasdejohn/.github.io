@@ -1,0 +1,12 @@
+#logo-header {
+    
+    align-items: center;
+    padding: 1rem 0;
+    display: grid;
+    position: relative;
+
+}
+
+h1 {
+    text-align: center;
+}
