@@ -1,5 +1,5 @@
 if (document.addEventListener) {
-  document.addEventListener("DOMContentLoaded", function(){load_home(null, 'pages/home.html');}, false);
+  document.addEventListener("DOMContentLoaded", function(){load_home(null, 'pages/about.html');}, false);
 }
 
 function load_home (e, file) {
