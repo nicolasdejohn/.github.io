@@ -8,7 +8,7 @@ display the highest and lowest prices per year, and generate two text files disp
 
 import collections
 import os 
-os.chdir(r"C:\Users\Nick\Desktop\CPCC\.github.io\csc 121\Chapter 8")
+#os.chdir(r"C:\Users\Nick\Desktop\CPCC\.github.io\csc 121\Chapter 8")
 cwd = os.getcwd()
 
 file = open("GasPrices.txt", "r") # Opens the file
